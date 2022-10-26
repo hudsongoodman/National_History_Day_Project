@@ -1,0 +1,32 @@
+body {
+  background: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  color: black;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  background: red;
+  display: flex;
+  margin: -8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.directorybuttons {
+  height: 50px;
+  background: blue;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directorybuttons > button {
+  margin: 10px;
+}
